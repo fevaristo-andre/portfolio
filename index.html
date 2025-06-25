@@ -4,13 +4,128 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">">
     <title>Portfólio Felipe Dev Web em Blumenau</title>
     <meta name="description" content="Desenvolvimento de websites, e-commerce, sistemas, hospedagem em Blumenau">
 </head>
 <body>
+    <header class="bg-primary text-white">
+        <div class="container py-4">
+            <h1 class="mb-0">Portfólio Felipe Evaristo</h1>
+            <nav class="mt-2">
+                <a href="#sobre" class="text-white me-3 text-decoration-none">Sobre</a>
+                <a href="#porfolio" class="text-white me-3 text-decoration-none">Portfólio</a>
+                <a href="#contato" class="text-white me-3 text-decoration-none">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+ <main class="container-fluid">
+    <section id="sobre" class="row p-5">
+        <div class="col-12 col-sm-12 col-md-4 ps-3">
+            <img src="/img/fotoperfil.jpeg" class="rounded-circle img-fluid">
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 pe-3">
+            <h2>Felipe André Evaristo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere pariatur placeat sit! Quos dignissimos debitis, sequi optio sit perspiciatis iste cumque molestiae maiores voluptatem error dolores voluptas eaque officiis hic!</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus corrupti labore temporibus eos aspernatur magni, sint ipsa autem dicta. Quia laborum amet voluptatem delectus eius exercitationem libero a vitae laudantium!</p>
+        </div>
+    </section>
+
+    <!-- início página portfólio -->
+     <section id="porfolio" class="row p-5 bg-primary">
+            <h2 class="text-white">Portfólio</h2>
+            <!-- início da coluna com card -->
+            <div class="col-12 col sm-12 col-md-3 shadow-regular">
+                <div class="card my-3">
+                    <img src="/img/card_port_1.jpeg" height="400px" alt="Site institucional">
+                </div>
+                <div class="card-body">
+                    <h5>Site institucional</h5>
+                    <p>pequeno projeto de aprendizado</p>
+                </div>
+            </div>
+            <!-- fim da coluna com card -->
+            <!-- início da coluna com card -->
+            <div class="col-12 col sm-12 col-md-3">
+                <div class="card my-3">
+                    <img src="/img/card_port_2.jpeg" height="400px" alt="Site institucional">
+                </div>
+                <div class="card-body">
+                    <h5>Site institucional</h5>
+                    <p>pequeno projeto de aprendizado</p>
+                </div>
+            </div>
+            <!-- fim da coluna com card -->
+            <!-- início da coluna com card -->
+            <div class="col-12 col sm-12 col-md-3">
+                <div class="card my-3">
+                    <img src="/img/card_port_3.jpeg" height="400px" alt="Site institucional">
+                </div>
+                <div class="card-body">
+                    <h5>Site institucional</h5>
+                    <p>pequeno projeto de aprendizado</p>
+                </div>
+            </div>
+            <!-- fim da coluna com card -->
+            <!-- início da coluna com card -->
+            <div class="col-12 col sm-12 col-md-3">
+                <div class="card my-3">
+                    <img src="/img/card_port_4.jpeg" height="400px" alt="Site institucional">
+                </div>
+                <div class="card-body">
+                    <h5>Site institucional</h5>
+                    <p>pequeno projeto de aprendizado</p>
+                </div>
+            </div>
+            <!-- fim da coluna com card -->
+     </section>
+            
+     <!-- início sessão contato -->
+     <section id="contato" class="row p=5">
+                <h2 class="my-3">Entre em contato</h2>
+                <form class="col-12 col-sm-12 col-md-6" id="enviar">
+                    <div class="col-12 mb-2">
+                        <label for="nome" class="form-label">Nome </label>
+                        <input type="text" class="form-control" placeholder="Seu nome" required id="nome">
+                    </div>
+
+                    <div class="col-12 mb-2">
+                        <label for="email" class="form-label">E-mail </label>
+                        <input type="text" class="form-control" placeholder="Seu e-mail" required id="email">
+                    </div>
+
+                    <div class="col-12 mb-2">
+                        <label for="email" class="form-label">Mensagem </label>
+                        <textarea name="mensagem" id="mensagem" class="form-control" rows="5" placeholder="Digite sua mensagem"></textarea>
+                    </div>
+
+                    <div class="col-12 mb-2">
+                        <button type="submit" class="btn bg-primary my-3 text-white">Enviar</button>
+                    </div>
+                </form>
+                <div class="col-12 col-sm-12 col-md-6 my-3" rows="p=5">
+                    <p><i class="bi bi-whatsapp"></i>Telefone: (47) 99696-9148</p>
+                    <p><strong>E-mail:  </strong> fevaristo7@gmail.com</p>
+                    <p><strong>Localização: </strong> Rua 7 de Setembro, 10900</p>
+                    <p>Centro | Blumenau | SC </p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.5750909940934!2d-49.07288232431864!3d-26.916977176644647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94df18c3b4a71d65%3A0xa5ec9dd8406a6a7!2sProWay!5e0!3m2!1spt-BR!2sbr!4v1750807677664!5m2!1spt-BR!2sbr" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+
+    </section>
+    
+ </main>
+
+ <footer class="bg-primary text-white text-center py-4 mt-4">
+    &copy; 2025 Todos os direitos reservados.
+
+ </footer>
     
 
 
     <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/app.js"></script>
 </body>
 </html>
